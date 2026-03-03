@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 4 - Tabla</title>
+    <meta name="description" content="DIW, Práctica 6. Actividad 4">
+    <meta name="author" content="Isabel Granados Palma">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="p-3 m-xl-3">
+        <!--LOGOTIPO-->
+        <img src="./images/ENIUN@2x.png" class="logo img-fluid rounded float-start" alt="imagen_logo">
+        <!--MENÚ Y BUSCADOR con margin-start-auto para que esté a la derecha y en versión clara-->
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <button class="navbar-toggler ms-auto m-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-light"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler1">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <!--BOTÓN CON DROPDOWN-->
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Servicios
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Ir al servicio 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Ir al servicio 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Ir al servicio 3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tabla.html">Tabla</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <!--BUSCADOR-->
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <!--No sé por qué este botón no se muestra de color verde-->
+                        <button class="btn btn-personalizado" type="submit">Buscar...</button>
+                    </form>
+                </div>
+            </div>
+        </navbar>
+    </header>
+    <!--BREADCRUMB-->
+    <div id="breadcrumb" class="p-3 m-xl-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html"  class="a-personalizado">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Tabla</li>
+            </ol>
+        </nav>
+    </div>
+    <main>
+        <section id="seccionPresentacion" class="bg-fondo-presentacion p-responsive-personalizado m-xl-3">
+            <h1>Tabla</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut, pharetra laoreet aptent 
+                praesent libero parturient vestibulum semper inceptos, curabitur taciti dictumst fames 
+                pellentesque iaculis justo.</p>
+        </section>
+        <!--TABLA-->
+        <div id="tabla" class="p-responsive-personalizado">
+            <table class="table table-bordered table-striped table-responsive">
+                <thead>
+                    <tr class="table-dark">
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>@social</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>@social</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>@social</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>@social</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--PAGINACIÓN-->
+        <div id="paginación" class="p-3 m-xl-3">
+            <nav aria-label="...">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item-personalizado">
+                        <a class="page-link-personalizado" href="index.html">Página anterior</a>
+                    </li>
+                    <li class="page-item-personalizado">
+                        <a class="page-link-personalizado" href="index.html">1</a>
+                    </li>
+                    <li class="page-item-personalizado active">
+                        <a class="page-link-personalizado" href="tabla.html" aria-current="page">2</a>
+                    </li>
+                    <li class="page-item-personalizado">
+                        <a class="page-link-personalizado" href="contacto.html" aria-current="page">3</a>
+                    </li>
+                    <li class="page-item-personalizado">
+                        <a class="page-link-personalizado" href="contacto.html">Página siguiente</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <footer class="bg-fondo-footer row p-responsive-personalizado m-xl-3">
+        <div class="col-6"><h4>Enium.com</h4></div>
+        <div class="col-6"><p>Información extra</p></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
