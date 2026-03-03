@@ -127,3 +127,16 @@ footer {
         padding: 4rem 7rem;
     }
 }
+
+
+audio {
+   margin: min(2em, 8%);
+}
+
+.navvideo {
+    margin: min(2em, 8%);
+}
+
+#articleBunny {
+    text-align: center;
+}
